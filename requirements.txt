@@ -1,0 +1,7 @@
+python-dotenv
+nnsight=0.3.7
+matplotlib
+seaborn
+plotly
+wandb 
+tqdm
