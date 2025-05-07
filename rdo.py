@@ -20,7 +20,7 @@ from generate_utils import (projection_einops,
                             intervene_with_fn_vector_addition)
 from scoring import refusal_metric, get_bypass_scores 
 
-dotenv.load_dotenv()
+dotenv.load_dotenv(override=True)
 set_seed(42)
 
 # Default configuration values

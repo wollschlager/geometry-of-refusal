@@ -4,6 +4,7 @@ import json
 import os
 import argparse
 import wandb
+from dotenv import load_dotenv
 
 from dataset.load_dataset import load_dataset_split, load_dataset
 
@@ -16,6 +17,7 @@ from pipeline.submodules.evaluate_jailbreak import evaluate_jailbreak
 
 def parse_arguments():
     """Parse model path argument from command line."""
+    load_dotenv("..", override=True)
     parser = argparse.ArgumentParser(description="Parse model path argument.")
     parser.add_argument('--wandb_run', type=str, required=True, help='wandb run')
     return parser.parse_args()
