@@ -26,7 +26,7 @@ The code is primarily designed for VSCode interactive mode (similar to Jupyter n
 
 ## Configuration (.env)
 
-This project uses a `.env` file in the root directory to manage configuration settings. You should take a look at this file and change the parameters to suit your needs.
+This project uses a `.env` file in the root directory to manage configuration settings. You should take a look at this file and change the parameters to suit your needs. For reference, you can have a look at the .env_example file
 
 ## Usage
 
